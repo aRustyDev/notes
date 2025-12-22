@@ -1,0 +1,10 @@
+# Sparse clone sources (pulled at build time)
+.sources/
+
+# Obsidian workspace (local state)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+
+# OS
+.DS_Store

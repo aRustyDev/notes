@@ -1,0 +1,26 @@
+# Aggregated notes sources
+# Each entry defines a source repo and the path to its notes
+version: 1
+
+# Token configuration for CI:
+# - Public repos: Use GITHUB_TOKEN
+# - Private repos: Use PRIVATE_REPO_TOKEN (PAT with repo scope)
+
+notes:
+  mcp:
+    repo: arustydev/mcp
+    path: notes
+    ref: main
+    private: false
+
+  ai:
+    repo: arustydev/ai
+    path: notes
+    ref: main
+    private: false
+
+  # personal:
+  #   repo: arustydev/notes-personal
+  #   path: .
+  #   ref: main
+  #   private: true
